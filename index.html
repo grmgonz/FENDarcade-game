@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>FEND Project: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- include the core styles -->
+
+    <!-- include a theme, can be included into the core instead of 2 separate files -->
+    <link rel="stylesheet" href="css/alertify.default.css" />
+    <link rel="stylesheet" href="css/alertify.core.css" />
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+
+
+
+
+</head>
+
+
+
+<div class="container">
+    <div id="game"></div>
+
+    <h1> Monsters VS. Ninja </h1>
+    <h2> By <a href ="http://gabegonzales.co/" target = "_blank"> Gabe Gonzales </a> </h2>
+
+    <div id="survived-container" class="lead">
+        Survived: <span id="score-survived">0</span>
+
+    </div>
+
+
+    <div id="eaten-container" class="lead">
+
+        Eaten: <span id="score-eaten">0</span>
+    </div>
+
+
+
+    <div id="instructions">
+        Use those super sly ninja skills(arrow keys) to make it to the water and you'll survive!. You only have to make it there once and you will become a master ninja. If you are eaten 3x you will fail your training. Scroll down and good luck!
+    </div>
+
+
+    <button type="reset" id="resetgame" value="Reset"><a href="">RESET GAME</a>
+    </button>
+
+</div>
+
+
+<script src="js/resources.js"></script>
+<script src="js/app.js"></script>
+
+<script src="js/alertify.js"></script>
+<script src="js/engine.js"></script>
+
+</body>
+
+</html>

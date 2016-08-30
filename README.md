@@ -1,9 +1,9 @@
 # Udacity's Front-End Web Developer Nanodegree Project 3: Classic Arcade Game #
-===============================
 
 I created a HTML5 Canvas powered video game, developed using the best practices in Object Oriented JavaScript.
 
-## RUN GAME ## 
+##  RUN GAME##
+
 * Visit (http://gabegonzales.co/frogger/) or
 * Download or clone project from github and open index.html
 
